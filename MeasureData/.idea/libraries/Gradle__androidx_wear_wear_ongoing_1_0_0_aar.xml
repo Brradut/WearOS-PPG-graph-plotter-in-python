@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.wear:wear-ongoing:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/118d95c73d423d66665da5675c00443d/transformed/jetified-wear-ongoing-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/118d95c73d423d66665da5675c00443d/transformed/jetified-wear-ongoing-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/118d95c73d423d66665da5675c00443d/transformed/jetified-wear-ongoing-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.wear/wear-ongoing/1.0.0/562fb680f743c27e719efcf841f7b4caefc1cade/wear-ongoing-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
