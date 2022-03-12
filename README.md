@@ -11,24 +11,15 @@ The project assumes the usage of WSL, in which everything is run (only tested on
 
 
 Files used:
-
-MeasureData - the project containing the WearOS app. The watch interface shows nothing, you need to check logcat to see if it's working.
-
-adb.exe - the adb executable. 
-
-AdbWinApi.dll & AdbWinUsbApi.dll - libraries for adb to work on Windows.
-
-build_graph.py - used to visualize the graph from a file, or from default.txt if no file is given. Permits choosing chunks of time by giving an offset and a duration.
-
-INSTRUCTIONS.md - instructions regarding installation.
-
-LINUX.sh - setup script for WSL.
-
-live-data.py - builds the graph in real-time using STDIN input. When receiving SIGINT saves the data to the given file, or to default.txt if no file is given. Is used by start_graph.sh.
-
-requirements.txt - python requirements, made with pip freeze. Used by LINUX.sh
-
-start-graph.sh - clears logcat data, and then pipes the PPG data coming from the watch to live-data.py, which then plots the graph in real time. If multiple devices are connected to adb, you can give the device IP as argument.
+- MeasureData - the project containing the WearOS app. The watch interface shows nothing, you need to check logcat to see if it's working.
+- adb.exe - the adb executable. 
+- AdbWinApi.dll & AdbWinUsbApi.dll - libraries for adb to work on Windows.
+- build_graph.py - used to visualize the graph from a file, or from default.txt if no file is given. Permits choosing chunks of time by giving an offset and a duration.
+- INSTRUCTIONS.md - instructions regarding installation.
+- LINUX.sh - setup script for WSL.
+- live-data.py - builds the graph in real-time using STDIN input. When receiving SIGINT saves the data to the given file, or to default.txt if no file is given. Is used by start_graph.sh.
+- requirements.txt - python requirements, made with pip freeze. Used by LINUX.sh
+- start-graph.sh - clears logcat data, and then pipes the PPG data coming from the watch to live-data.py, which then plots the graph in real time. If multiple devices are connected to adb, you can give the device IP as argument.
 
 WINDOWS.exe - XLaunch installer.
 
